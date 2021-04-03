@@ -7,8 +7,8 @@ const rootReducer = combineReducers({
     pokes: pokeReducer
 })
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE_ || compose;
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-export const generateStore = () => {
+export default function generateStore() {
     return createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)))
 }
