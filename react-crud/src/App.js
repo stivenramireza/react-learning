@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import UserTable from './componentes/crud/UserTable';
+import UserTable from './components/crud/UserTable';
 import { v4 as uuidv4 } from 'uuid';
-import AddUserForm from './componentes/crud/AddUserForm';
-import EditUserForm from './componentes/crud/EditUserForm';
+import AddUserForm from './components/crud/AddUserForm';
+import EditUserForm from './components/crud/EditUserForm';
 
 const App = () => {
 
