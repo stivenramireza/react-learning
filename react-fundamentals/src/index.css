@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #5C258D;
+  background: -webkit-linear-gradient(to right, #4389A2, #5C5C5C);
+  background: linear-gradient(to right, #4389A2, #5C258D);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
